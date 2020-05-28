@@ -1,0 +1,136 @@
+body{
+  margin:1%;
+}
+
+
+.navbar-header{
+  text-decoration: none;
+  font-size:130%;
+  font-family: 'Cinzel Decorative', Impact;
+  font-weight: bold;
+  color: #f94144;
+}
+
+ul[class^="nav"]
+{
+  font-size: 120%;
+}
+
+#home{
+  background-image: url('https://images.unsplash.com/photo-1543157145-f78c636d023d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+  background-size: cover;
+  margin-top: 2%;
+  padding: 8%;
+}
+
+#home-inside{
+  border: 1px solid black;
+  padding:3%;
+  background-color: rgba(67, 170, 139,0.4);
+  animation: pulse 5s;
+}
+
+@keyframes pulse{
+  0% {
+    background-color: rgba(67, 170, 139,1);
+  }
+  100% {
+    background-color: rgba(67, 170, 139,0.4);
+  }
+}
+
+#home-inside h1{
+  color:black;
+  font-family: Impact;
+}
+
+#home-inside p{
+  text-align: center;
+  font-weight: bold;
+  color: black;
+}
+
+#home-inside p span{
+  font-style: italic;
+}
+
+#gallery{
+  margin-top: 2%;
+  padding: 1%;
+  background-color: #f9c74f; 
+}
+
+#gallery img{
+  margin: 1%;
+}
+#gallery h2{
+  font-family: Impact;
+}
+
+#gallery p{
+  font-size: 120%;
+}
+
+#gallery img:hover{
+  
+  opacity:0.8;
+}
+
+.more a{
+  text-decoration: none;
+  text-align: right;
+  color: #000000;
+  position: relative;
+  left:85%;
+}
+
+#gallery-more{
+  margin-top: 1%;
+  background-color: #f8961e;
+}
+
+#gallery-more img{
+  width: 3%;
+  height:3%;
+  position: relative;
+  left:50%;
+}
+
+#about{
+  margin-top: 2%;
+  padding: 1%;
+}
+
+#about_us{
+  margin-left: 1%;
+  float: left;
+}
+
+.info{
+  margin-top: 1%;
+  border: 1px solid black;
+  padding:3%;
+  background-image: url('https://images.unsplash.com/photo-1527945505182-b4c5cbc546a6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80');
+  background-size: cover;
+  background-color: rgba(87, 117, 144,0.4);
+  
+}
+
+#about_us h2{
+  color: #577590;
+  font-family: Impact;
+  text-align: center;
+}
+
+.info p{
+  font-size: 120%;
+  text-align: left;
+  font-weight: bold;
+  color: #000000;  
+}
+
+.info span{
+  font-family: 'Cinzel Decorative', Impact;
+  font-weight: bold;
+  color: #f94144;
+}
